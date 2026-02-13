@@ -1,3 +1,0 @@
-SenseQ = ""
-RelayQ = ""
-BallQ = ""
