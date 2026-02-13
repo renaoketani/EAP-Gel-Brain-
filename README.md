@@ -43,7 +43,7 @@ Pong Game中にランダム刺激を加え，ゲルの挙動・反応変化を�
 ### 1. 必要なライブラリのインストール
 ターミナル（またはコマンドプロンプト）で以下のコマンドを実行してください．
 
-pip install pygame pandas numpy matplotlib seaborn opencv-python adafruit-blinka adafruit-circuitpython-ina219 RPi.GPIO
+```pip install pygame pandas numpy matplotlib seaborn opencv-python adafruit-blinka adafruit-circuitpython-ina219 RPi.GPIO```
 
 
 ### 2. 各ライブラリの用途
@@ -60,10 +60,10 @@ pip install pygame pandas numpy matplotlib seaborn opencv-python adafruit-blinka
 I2C通信を利用するため、あらかじめOS側の設定でI2Cインターフェースを有効化しておく必要があります。
 
 #### I2Cの有効化設定（インターフェース設定からI2CをEnableにしてください）
-sudo raspi-config
+```sudo raspi-config```
 
 #### 接続確認（INA219のアドレス 0x40, 0x41, 0x44 などが表示されれば正常です）
-i2cdetect -y 1
+```i2cdetect -y 1```
 
 ## 著者
 ・桶谷　怜央
